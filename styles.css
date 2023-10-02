@@ -1,0 +1,212 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    font-size:18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner-container {
+    height:60vh;
+    background-image:url('images/background.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    /*background-color:green;*/
+    margin-top:0;
+}
+
+.banner-inner {
+    margin:auto;
+    width:90vw;
+    padding-top:90px;
+}
+
+.intro-div h2 {
+    color:orange;
+    font-size:2.75em;
+    margin-bottom:20px;
+    font-weight:bold;
+}
+
+.intro-div h3 {
+    color:rgb(173, 111, 5);
+    font-size:1.75em;
+    font-weight:bold;
+}
+
+.nav-btn-div {
+    margin-top:125px;
+    display:flex;
+    justify-content:center;
+}
+
+.nav-btn-div div {
+    background-color:olive;
+    margin-right:10px;
+    width: 13vw;
+    text-align:center;
+    padding-top:7px;
+    padding-bottom:7px;
+    border-radius:15px;
+}
+
+.nav-btn-div a {
+    text-decoration:none;
+    color:whitesmoke;
+}
+
+.nav-btn-div div:hover {
+    background-color:whitesmoke;
+}
+
+.nav-btn-div a:hover {
+    color:olive;
+}
+
+.about-container {
+    margin:auto;
+    width:65vw;
+    margin-top:100px;
+}
+
+.hr-div {
+    text-align:center;
+}
+
+.about-container hr {
+    border:1px solid orange;
+    width:30%;
+    margin:0 auto;
+}
+
+.about-content {
+    margin-top:40px;
+    color:#333;
+    line-height:30px;
+}
+
+.nav-btn-div2 {
+    text-align:center;
+    margin-top:60px;
+}
+
+.nav-btn-div2 a {
+    text-decoration:none;
+    color:orange;
+    margin-right:20px;
+    font-weight:bold;
+}
+
+.nav-btn-div2 a:hover {
+    color:rgb(173, 111, 5);
+}
+
+.cloud-body {
+    padding-top:100px;
+    /*padding-bottom:50px;*/
+}
+
+.cloud-body h2 {
+    text-align:center;
+    margin-bottom:10px;
+    font-weight:bold;
+    color:rgb(173, 111, 5);
+}
+
+.cloud-body .hr-div {
+    margin:auto;
+    width:10%;
+}
+
+.cloud-body hr {
+    border:1px solid orange
+}
+
+.projects-container {
+    display:flex;
+    margin:auto;
+    width:90vw;
+    justify-content:space-between;
+    padding-top:60px;
+}
+
+.project-card {
+    width:44vw;
+    height:27vh;
+    margin-bottom:15px;
+    border-top-right-radius:20px;
+    border-bottom-left-radius:20px;
+    box-shadow:3px 5px 12px #888888;
+    text-align:center;
+    padding-top:25px;
+    padding-bottom:8px;
+    padding-left:8px;
+    padding-right:8px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    line-height:23px;
+}
+
+.project-card:hover {
+    box-shadow:3px 5px 16px #888888;
+}
+
+.project-card h3 {
+    font-size:1em;
+    font-weight:bold;
+    color:olive;
+}
+
+.project-card p {
+    color:rgb(173, 111, 5);
+    font-size:14px;
+    /*margin-bottom:20px;*/
+}
+
+.project-card a {
+    text-decoration:none;
+    color:orange;
+}
+
+.project-card a:hover {
+    color:rgb(173, 111, 5)
+}
+
+.cloud-body .devops-link {
+    text-align:center;
+    margin-top:50px;
+}
+
+.cloud-body .devops-link a {
+    text-decoration:none;
+    color:olive;
+    font-weight:bold;
+}
+
+.cloud-body .devops-link a:hover {
+    color:orange;
+}
+
+footer {
+    background-color:black;
+    color:whitesmoke;
+    text-align:center;
+    margin-top:65px;
+    padding-top:25px;
+    padding-bottom:20px;
+}
+
+footer a {
+    text-decoration:none;
+    color:rgb(173, 111, 5);
+}
+
+footer div {
+    margin-top:25px;
+}
+
