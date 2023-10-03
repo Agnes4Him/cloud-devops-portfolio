@@ -10,7 +10,7 @@ body {
 }
 
 .banner-container {
-    height:60vh;
+    height:70vh;
     background-image:url('images/background.jpg');
     background-position:center;
     background-repeat:no-repeat;
@@ -27,14 +27,14 @@ body {
 
 .intro-div h2 {
     color:orange;
-    font-size:2.75em;
-    margin-bottom:20px;
+    font-size:3.5em;
+    margin-bottom:40px;
     font-weight:bold;
 }
 
 .intro-div h3 {
     color:rgb(173, 111, 5);
-    font-size:1.75em;
+    font-size:2em;
     font-weight:bold;
 }
 
@@ -61,6 +61,7 @@ body {
 
 .nav-btn-div div:hover {
     background-color:whitesmoke;
+    color:olive;
 }
 
 .nav-btn-div a:hover {
