@@ -25,6 +25,12 @@ body {
     padding-top:90px;
 }
 
+.intro-div {
+    margin:auto;
+    width:50vw;
+    text-align:center;
+}
+
 .intro-div h2 {
     color:orange;
     font-size:3.5em;
