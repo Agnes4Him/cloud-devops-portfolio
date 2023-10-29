@@ -11,7 +11,7 @@ body {
 
 .banner-container {
     height:70vh;
-    background-image:url('images/background.jpg');
+    background-image:url('images/background3.png');
     background-position:center;
     background-repeat:no-repeat;
     background-size:cover;
@@ -25,21 +25,22 @@ body {
     padding-top:90px;
 }
 
-.intro-div {
+/*.intro-div {
     margin:auto;
     width:50vw;
     text-align:center;
-}
+}*/
 
 .intro-div h2 {
     color:orange;
     font-size:3.5em;
-    margin-bottom:40px;
+    margin-bottom:20px;
     font-weight:bold;
 }
 
 .intro-div h3 {
-    color:rgb(173, 111, 5);
+    /*color:rgb(173, 111, 5);*/
+    color:whitesmoke;
     font-size:2em;
     font-weight:bold;
 }
