@@ -10,7 +10,7 @@ body {
 }
 
 .banner-container {
-    height:65vh;
+    height:42vh;
     background-image:url('images/background3.png');
     background-position:center;
     background-repeat:no-repeat;
@@ -53,11 +53,11 @@ body {
 
 .nav-btn-div div {
     background-color:olive;
-    margin-right:10px;
-    width: 13vw;
+    margin-right:15px;
+    width: 11vw;
     text-align:center;
-    padding-top:7px;
-    padding-bottom:7px;
+    padding-top:15px;
+    padding-bottom:15px;
     border-radius:15px;
 }
 
@@ -144,7 +144,7 @@ body {
 
 .project-card {
     width:44vw;
-    height:27vh;
+    height:18vh;
     margin-bottom:15px;
     border-top-right-radius:20px;
     border-bottom-left-radius:20px;
